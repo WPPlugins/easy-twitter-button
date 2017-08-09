@@ -1,0 +1,273 @@
+.etb_err {
+	background-color: #CC0033;
+	color: #FFF;
+	text-align: center;
+	font-weight: bold;
+	padding: 5px 0;
+}
+
+.etb_ok {
+	background-color: #6DA22E;
+	color: #FFF;
+	text-align: center;
+	font-weight: bold;
+	padding: 5px 0;
+}
+
+.etbclear {
+	clear: both;
+}
+.etbclear5 {
+	clear: both;
+	height: 5px;
+}
+
+.etb_all {
+	padding-left: 15px;
+	width: 900px;
+	font-family: Tahoma, Geneva, sans-serif;
+	position: relative;
+}
+
+.etb_left {
+	float: left;
+	width: 500px;
+}
+.etb_right {
+	width: 350px;
+	position: fixed;
+	left: 700px;
+}
+
+.etb_right .etb_content{
+	margin-bottom: 15px;
+}
+
+.etb_right .etb_ok{
+	float: left;
+	padding: 3px 10px;
+	margin-right: 2px;
+	color: #6DA22F;
+	background-color: #FFF;
+	border: 1px #6DA22F solid;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+.etb_tabs {
+	padding-left: 20px;
+}
+.etb_tabs li{
+	color: #4E76D2;
+	display: inline;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.etb_tabs li span{
+	padding: 10px 20px;
+	display: block;
+	float: left;
+	cursor: pointer;
+}
+.etb_tabs li span:hover{
+	color: #000;
+}
+.etb_tabs li.active {
+	color: #000;
+	font-weight: bold;
+	background: #ecf6fa url(../i/corner-tl.jpg) top left no-repeat;
+}
+.etb_tabs li.active span{
+	background: url(../i/corner-tr.jpg) top right no-repeat;
+}
+
+
+.etb_left h3, .etb_right h3 {
+	font-weight: normal;
+	color: #4f4f4f;
+}
+.etb_left h3 span, .etb_right h3 span{
+	display: block;
+	background: url(../i/circle.jpg) top center no-repeat;
+	height: 19px;
+	width: 19px;
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+	font-size: 12px;
+	float: left;
+	margin-right: 10px;
+}
+
+
+.etb_content {
+	background: #ecf6fa url(../i/corner-tl.jpg) top left no-repeat;
+	margin-bottom: 50px;
+}
+.etb_content1 {
+	background: url(../i/corner-tr.jpg) top right no-repeat;
+}
+.etb_content2 {
+	background: url(../i/corner-bl.jpg) bottom left no-repeat;
+}
+.etb_content3 {
+	background: url(../i/corner-br.jpg) bottom right no-repeat;
+	padding: 15px;
+	padding-left: 20px;
+}
+
+.etb_buttons .etb_option {
+	float: left;
+	padding-right: 30px;
+}
+
+.etb_buttons .etb_option span{
+	display: block;
+	height: 70px;
+}
+
+.etb_buttons .etb_option span.etb_option1 {
+	background: url(../i/buttons/en/tweetv.png) center no-repeat;
+}
+
+.etb_buttons .etb_option span.etb_option2 {
+	background: url(../i/buttons/en/tweeth.png) center no-repeat;
+}
+.etb_buttons .etb_option span.etb_option3 {
+	background: url(../i/buttons/en/tweetn.png) center no-repeat;
+}
+
+
+
+.etb_tweet_text {
+	display: none;
+	line-height: 20px;
+}
+.etb_language {
+	display: none;
+}
+
+.etb_recommend label{
+	display: block;
+	width: 166px;
+	float: left;
+	padding-top: 3px;
+}
+.etb_recommend br{
+	clear: both;
+}
+.etb_recommend input{
+	margin-bottom: 10px;
+}
+
+.etb_position .etb_option {
+	float: left;
+	padding-right: 40px;
+}
+.etb_position .last {
+	padding: 0;
+}
+.etb_position .etb_option span{
+	display: block;
+	float:left;
+	height: 60px;
+	width: 80px;
+}
+.etb_position .etb_option1 {
+	background: url(../i/position1.png) center no-repeat;
+}
+.etb_position .etb_option2 {
+	background: url(../i/position2.png) center no-repeat;
+}
+.etb_position .etb_option3 {
+	background: url(../i/position3.png) center no-repeat;
+}
+.etb_position .etb_option4 {
+	background: url(../i/position4.png) center no-repeat;
+}
+
+input.save-button {
+	background: url(../i/submit-bg.png) top repeat-x;
+	color: #FFF;
+	cursor: pointer;
+	padding: 3px 10px;
+	font-weight: bold;
+	border: 1px #539300 solid;
+}
+
+.etb_feedback {
+	float: left;
+}
+.etb_ideea {
+	float: right;
+}
+
+.etb_send_email {
+	width: 350px;
+	position: fixed;
+	left: 700px;
+	top: 300px;
+	z-index: 3;
+}
+.etb_send_email br{
+	clear: both;
+}
+.etb_send_email .etb_feedback {
+	margin-bottom: 5px;
+}
+.etb_email_form {
+	display: none;
+}
+
+.etb_email_form .alignright {
+	padding-top: 13px;
+}
+
+.etb_closeemail {
+	background:url(../i/close.png) center no-repeat;
+	height: 16px;
+	width: 16px;
+	display: block;
+	float: right;
+	cursor: pointer;
+}
+
+.etb_email_form form {
+	border-top: 1px #ECF6FA solid;
+	padding-top: 5px;
+	margin-top: 5px;
+}
+
+
+/********* Buttons *********/
+.etb_preview span{
+	display: block;
+	height: 70px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+/*en*/
+.eth0 { background-image: url(../i/buttons/en/tweeth.png); }
+.etv0 { background-image: url(../i/buttons/en/tweetv.png); }
+.etn0 { background-image: url(../i/buttons/en/tweetn.png); }
+/*fr*/
+.eth1 { background-image: url(../i/buttons/fr/tweeth.png); }
+.etv1 { background-image: url(../i/buttons/fr/tweetv.png); }
+.etn1 { background-image: url(../i/buttons/fr/tweetn.png); }
+/*de*/
+.eth2 { background-image: url(../i/buttons/de/tweeth.png); }
+.etv2 { background-image: url(../i/buttons/de/tweetv.png); }
+.etn2 { background-image: url(../i/buttons/de/tweetn.png); }
+/*es*/
+.eth3 { background-image: url(../i/buttons/es/tweeth.png); }
+.etv3 { background-image: url(../i/buttons/es/tweetv.png); }
+.etn3 { background-image: url(../i/buttons/es/tweetn.png); }
+/*jp*/
+.eth4 { background-image: url(../i/buttons/jp/tweeth.png); }
+.etv4 { background-image: url(../i/buttons/jp/tweetv.png); }
+.etn4 { background-image: url(../i/buttons/jp/tweetn.png); }
+/********* Buttons *********/
